@@ -6,6 +6,7 @@
  */
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -20,7 +21,12 @@ export default function Home() {
           我在这里更改了标题，看看生产环境是否变化
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-
+        <Image
+          src="/images/profile.jpg"
+          alt="your name"
+          width={120}
+          height={123}
+        />
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
