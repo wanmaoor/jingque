@@ -1,3 +1,9 @@
+/*
+ * @Description: 
+ * @version: 
+ * @Author: wanmao
+ * @LastEditors: wanmao
+ */
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
@@ -11,6 +17,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
+          我在这里更改了标题，看看生产环境是否变化
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
